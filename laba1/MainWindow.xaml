@@ -1,0 +1,56 @@
+﻿<Window x:Class="laba1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:laba1"
+        mc:Ignorable="d"
+    Title="TV програми" SizeToContent="WidthAndHeight" 
+        WindowStartupLocation="CenterScreen">
+
+    <Border BorderBrush="Navy" Background="Lavender" BorderThickness="2" Name="border1" Margin="20" >
+
+        <WrapPanel Orientation="Horizontal" Height="200" Width="400">
+
+
+            <Border BorderBrush="Black" BorderThickness="1" Height="80" Width="80" Margin="10">
+                <Image Source="/its-too-cold-fox-in-the-snow (1920x1080).jpg" Stretch="Fill"  >
+                    <Image.OpacityMask>
+                        <ImageBrush ImageSource="/136456.png"/>
+                    </Image.OpacityMask>
+                </Image>
+            </Border>
+
+            <Border BorderBrush="Black" BorderThickness="1" Margin="10" Height="80" Width="80">
+                <Image Source="/Hoshigaki_Kisame.png" Stretch="Fill"  />
+            </Border>
+
+            <Border BorderBrush="Black" BorderThickness="1" Margin="10" Height="80" Width="80">
+                <Image Source="/Zoydberg.jpg" Stretch="Fill"  />
+            </Border>
+
+            <Border BorderBrush="Black" BorderThickness="1" Margin="10" Height="80" Width="80">
+                <Image Source="/кот1.jpg" Stretch="Fill"  />
+            </Border>
+
+            <Border BorderBrush="Black" BorderThickness="1" Margin="10" Height="80" Width="80">
+                <Image Source="/кот2.jpg" Stretch="Fill"  />
+            </Border>
+
+            <Border BorderBrush="Black" BorderThickness="1" Margin="10" Height="80" Width="80">
+                <Image Source="/кот.png" Stretch="Fill"  />
+            </Border>
+
+            <Border BorderBrush="Black" BorderThickness="1" Margin="10" Height="80" Width="80">
+                <Image Source="/кот4.jpg" Stretch="Fill"  />
+            </Border>
+
+            <Border BorderBrush="Black" BorderThickness="1" Margin="10" Height="80" Width="80">
+                <Image Source="/кот5.jpg" Stretch="Fill"  />
+            </Border>
+
+
+        </WrapPanel>
+
+    </Border>
+</Window>

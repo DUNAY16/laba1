@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="136456.png" />
+    <None Remove="Hoshigaki_Kisame.png" />
+    <None Remove="its-too-cold-fox-in-the-snow %281920x1080%29.jpg" />
+    <None Remove="Zoydberg.jpg" />
+    <None Remove="кот.png" />
+    <None Remove="кот1.jpg" />
+    <None Remove="кот2.jpg" />
+    <None Remove="кот4.jpg" />
+    <None Remove="кот5.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="136456.png" />
+    <Resource Include="Hoshigaki_Kisame.png" />
+    <Resource Include="its-too-cold-fox-in-the-snow (1920x1080).jpg" />
+    <Resource Include="Zoydberg.jpg" />
+    <Resource Include="кот.png" />
+    <Resource Include="кот1.jpg" />
+    <Resource Include="кот2.jpg" />
+    <Resource Include="кот4.jpg" />
+    <Resource Include="кот5.jpg" />
+  </ItemGroup>
+
+</Project>
